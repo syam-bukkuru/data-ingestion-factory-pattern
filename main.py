@@ -2,7 +2,7 @@ from factory import DataLoaderFactory  # Import factory class
 from utils import log  # Import logging function
 
 def main():
-    file_path = 'data/sample.csv'  # Filepath to the data file
+    file_path = 'data/archive.zip'  # Filepath to the data file
     file_type = 'csv'  # Specify the file type: 'csv', 'json', 'zip'
 
     try:
